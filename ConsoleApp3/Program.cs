@@ -17,17 +17,17 @@
             Console.WriteLine($"div is: {div}");
             #endregion
 
-            //#region task2
-            //Console.WriteLine("what is frist name");
-            //string fristname=Console.ReadLine();
-            //Console.WriteLine("what is list name");
-            //string listname = Console.ReadLine();
-            //string fullName=fristname+listname;
-            //int fullNameLength = fullName.Length;
-            //Console.WriteLine(fullNameLength);
-            //Console.WriteLine($"The length of your full name is: {fullNameLength}");
-            //Console.WriteLine($"the full name is: {fristname} {listname}");
-            //#endregion
+            #region task2
+            Console.WriteLine("what is frist name");
+            string fristname=Console.ReadLine();
+            Console.WriteLine("what is list name");
+            string listname = Console.ReadLine();
+            string fullName=fristname+listname;
+            int fullNameLength = fullName.Length;
+            Console.WriteLine(fullNameLength);
+            Console.WriteLine($"The length of your full name is: {fullNameLength}");
+            Console.WriteLine($"the full name is: {fristname} {listname}");
+            #endregion
         }
     }
 }
